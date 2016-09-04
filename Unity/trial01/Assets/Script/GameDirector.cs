@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class GameDirector : MonoBehaviour {
 
 	GameObject timerText;
-	float time = 300.0f;
+	float time = 180.0f;
 
 	// Use this for initialization
 	void Start () {
