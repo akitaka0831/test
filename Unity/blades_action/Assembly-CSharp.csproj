@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\Camera.cs" />
      <Compile Include="Assets\script\Player.cs" />
+     <None Include="Assets\store material\Medieval_Warriors_Pack\About_Shield_Mode.txt" />
+     <None Include="Assets\store material\Medieval_Warriors_Pack\Contact_Info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
