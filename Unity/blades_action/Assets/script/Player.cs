@@ -42,6 +42,11 @@ public class Player : MonoBehaviour {
 			rb2d.velocity.y == 0) {
 			rb2d.AddForce (transform.up * jump);
 		}
-	
+		//右クリックで攻撃
+		if (Input.GetMouseButtonDown (0)) {
+			anim.SetTrigger ("Attack");
+
+		}
+
 	}
 }
